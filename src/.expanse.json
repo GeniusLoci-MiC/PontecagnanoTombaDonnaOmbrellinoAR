@@ -564,7 +564,7 @@
         "borderWidth": 5,
         "flexDirection": "column",
         "width": "100%",
-        "height": 253,
+        "height": 440,
         "type": "overlay",
         "background": "#ffffff",
         "backgroundOpacity": 0.7800000000000002,
@@ -578,7 +578,7 @@
         "position": "absolute",
         "top": "",
         "left": "",
-        "bottom": 84,
+        "bottom": 56,
         "right": "",
         "ignoreRaycast": false,
         "borderRadius": 18
@@ -687,14 +687,14 @@
       "parentId": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
       "components": {},
       "ui": {
-        "text": "",
+        "text": "text",
         "flexDirection": "row",
-        "width": 308,
+        "width": 375,
         "height": 92,
         "type": "3d",
         "alignItems": "center",
         "justifyContent": "center",
-        "gap": 169,
+        "gap": 160,
         "paddingTop": 6,
         "paddingBottom": 6,
         "paddingLeft": 33,
@@ -704,14 +704,16 @@
         "marginBottom": 0,
         "marginLeft": 0,
         "marginRight": 0,
-        "fontSize": 28,
+        "fontSize": 20,
         "ignoreRaycast": false,
         "font": {
           "type": "font",
           "font": "Futura"
         },
         "verticalTextAlign": "center",
-        "color": "#636e87"
+        "color": "#636e87",
+        "flexWrap": "nowrap",
+        "textAlign": "center"
       },
       "name": "InfoText",
       "order": -0.8728902973045858
@@ -767,8 +769,8 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "Questa monumentale tomba a camera, costruita in blocchi di travertino, databile alla seconda metà del III secolo a.C., è stata portata alla luce nel 2017 durante uno scavo archeologico eseguito per motivi di tutela nella parte settentrionale della città di Pontecagnano, in via Raffaello Sanzio.",
-            "url": "https://skfb.ly/pLvrG"
+            "infoText": "Questa monumentale tomba a camera, costruita in blocchi di travertino, databile alla seconda meta' del III secolo a.C., e' stata portata alla luce nel 2017 durante uno scavo archeologico eseguito per motivi di tutela nella parte settentrionale della citta' di Pontecagnano, in via Raffaello Sanzio.",
+            "url": ""
           }
         }
       },
@@ -940,7 +942,7 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "Frammento di statua",
+            "infoText": "La parete posta di fronte all'ingresso presenta una scena figurata: al centro due personaggi affrontati, uno maschile a sinistra e l'altro femminile a destra, entrambi con volto di prospetto e braccio destro proteso. Dietro alla donna un'altra figura femminile di dimensioni minori, probabilmente un'ancella, incede verso sinistra reggendo un ombrellino parasole. Dietro alla figura maschile, invece, e' rappresentato un altro uomo di dimensioni minori. Il piano su cui poggiano le figure e' reso con una fascia ondulata nera, il che lascia ipotizzare l'ambientazione nell'Ade della scena che rappresenterebbe l'accoglimento della defunta nell'Aldila' da parte di un membro della famiglia.",
             "url": ""
           }
         }
@@ -960,7 +962,7 @@
         "alignItems": "center",
         "justifyContent": "center"
       },
-      "name": "ButtonPanneggioDX",
+      "name": "Button5",
       "order": 1.9082325121766062,
       "parentId": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05"
     },
@@ -990,7 +992,7 @@
       "ui": {
         "width": 36,
         "height": 33,
-        "text": "i",
+        "text": "5",
         "color": "#636e87",
         "fontSize": 44,
         "textAlign": "center",
