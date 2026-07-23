@@ -1,0 +1,1063 @@
+{
+  "objects": {
+    "87113aa9-b52e-4fba-b937-63fbec393fa9": {
+      "id": "87113aa9-b52e-4fba-b937-63fbec393fa9",
+      "position": [
+        10,
+        5,
+        5
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {},
+      "light": {
+        "type": "ambient",
+        "intensity": 1
+      },
+      "name": "Ambient Light",
+      "order": 1.2491958667939822,
+      "hidden": false
+    },
+    "52ba8a86-a459-4df8-b954-a570e85e0484": {
+      "id": "52ba8a86-a459-4df8-b954-a570e85e0484",
+      "position": [
+        0,
+        2,
+        3.211226375221431
+      ],
+      "rotation": [
+        -0.0004637899966810532,
+        0.9978406073902779,
+        -0.06529682289718859,
+        -0.007087458033270938
+      ],
+      "scale": [
+        1.0000000000000002,
+        1,
+        1.0000000000000004
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {},
+      "name": "Camera",
+      "camera": {
+        "type": "perspective",
+        "xr": {
+          "xrCameraType": "world",
+          "phone": "AR",
+          "desktop": "disabled",
+          "headset": "disabled"
+        }
+      },
+      "order": 2.1029089692509704
+    },
+    "bc7753ae-2b39-4f48-910a-7921b756487b": {
+      "id": "bc7753ae-2b39-4f48-910a-7921b756487b",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        -0.7071068,
+        0,
+        0,
+        0.7071068
+      ],
+      "scale": [
+        50,
+        50,
+        50
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "shadow",
+        "color": "#000000",
+        "opacity": 0.4
+      },
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {
+        "efcfa10c-5fe6-4a92-85de-a602a68683b2": {
+          "id": "efcfa10c-5fe6-4a92-85de-a602a68683b2",
+          "name": "tap-to-place",
+          "parameters": {
+            "prefab": {
+              "type": "entity",
+              "id": "1d030da3-9e4b-4e85-a1fd-11b326d96840"
+            },
+            "maxPlacedObjects": 1
+          }
+        }
+      },
+      "name": "Ground",
+      "order": 5.877553308364804,
+      "shadow": {
+        "receiveShadow": true
+      }
+    },
+    "17af117a-efce-48dd-857e-e383a3649c7b": {
+      "id": "17af117a-efce-48dd-857e-e383a3649c7b",
+      "position": [
+        0,
+        -0.01,
+        0
+      ],
+      "rotation": [
+        -0.707106799999999,
+        0,
+        0,
+        0.7071067623730954
+      ],
+      "scale": [
+        50,
+        50,
+        50
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "hider"
+      },
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {},
+      "name": "Hider",
+      "order": 7.322553197845954
+    },
+    "9b5668bc-b512-4bb6-9c6b-8ba97d3f8af0": {
+      "id": "9b5668bc-b512-4bb6-9c6b-8ba97d3f8af0",
+      "position": [
+        16.857510635812545,
+        15.927690665172552,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "18566616-4275-4629-8c0a-4c8ebc04b31f",
+      "components": {
+        "1761c50d-5912-4d06-9c35-35fad7eb7b58": {
+          "id": "1761c50d-5912-4d06-9c35-35fad7eb7b58",
+          "name": "tap-to-place-button",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "text": "tocca lo schermo per visualizzare la ricostruzione della tomba della donna con l'ombrellino",
+        "width": "100%",
+        "height": 71,
+        "type": "overlay",
+        "verticalTextAlign": "start",
+        "textAlign": "center",
+        "fontSize": 32,
+        "stackingOrder": 1,
+        "color": "#ffffff",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "name": "Tap Prompt",
+      "order": 10.427624126637916
+    },
+    "637f7413-261d-48bb-99c9-154bd99360da": {
+      "id": "637f7413-261d-48bb-99c9-154bd99360da",
+      "position": [
+        16.857510635812545,
+        15.927690665172552,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "18566616-4275-4629-8c0a-4c8ebc04b31f",
+      "components": {
+        "54cb9971-28ab-439f-ad9a-9cff761b0809": {
+          "id": "54cb9971-28ab-439f-ad9a-9cff761b0809",
+          "name": "tap-to-place-button",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "text": "tocca lo schermo per visualizzare la ricostruzione della tomba della donna con l'ombrellino",
+        "width": "100%",
+        "height": 72,
+        "type": "overlay",
+        "verticalTextAlign": "start",
+        "textAlign": "center",
+        "fontSize": 32,
+        "stackingOrder": 0,
+        "color": "#000000",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        },
+        "position": "absolute",
+        "top": 1,
+        "left": 2,
+        "bottom": 0,
+        "right": ""
+      },
+      "name": "Tap Prompt Shadow",
+      "order": 12.286216008012012
+    },
+    "5ac3deca-2126-4b56-b6a2-1442d035047a": {
+      "id": "5ac3deca-2126-4b56-b6a2-1442d035047a",
+      "position": [
+        -8.46107198766815,
+        7.181789778649719,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "904308fe-98f5-4c93-bf62-f39d50c6e602",
+      "components": {
+        "2100d3e9-8fed-4773-bc39-6f2ca5042375": {
+          "id": "2100d3e9-8fed-4773-bc39-6f2ca5042375",
+          "name": "reset-button",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "overlay",
+        "width": 100,
+        "height": 36,
+        "background": "#cb1010",
+        "borderRadius": 5,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": 20,
+        "right": 20,
+        "stackingOrder": 2
+      },
+      "name": "Reset Button",
+      "order": 12.850773699435942
+    },
+    "543540e1-7086-4068-a4e3-394084c146f8": {
+      "id": "543540e1-7086-4068-a4e3-394084c146f8",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "5ac3deca-2126-4b56-b6a2-1442d035047a",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 50,
+        "height": 14,
+        "text": "Reset",
+        "color": "#ffffff",
+        "fontSize": 16,
+        "font": {
+          "type": "font",
+          "font": "Roboto"
+        }
+      },
+      "order": 1.2563868233834565
+    },
+    "904308fe-98f5-4c93-bf62-f39d50c6e602": {
+      "id": "904308fe-98f5-4c93-bf62-f39d50c6e602",
+      "position": [
+        9.546973370717888,
+        16.927148292264643,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {},
+      "name": "Main Screen",
+      "order": 14.958687422311806,
+      "ui": {
+        "type": "overlay",
+        "width": "100%",
+        "height": "100%",
+        "ignoreRaycast": true
+      }
+    },
+    "1d030da3-9e4b-4e85-a1fd-11b326d96840": {
+      "id": "1d030da3-9e4b-4e85-a1fd-11b326d96840",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "components": {
+        "92cc446e-2931-499b-9be0-0472f042433a": {
+          "id": "92cc446e-2931-499b-9be0-0472f042433a",
+          "name": "logo",
+          "parameters": {}
+        }
+      },
+      "name": "Ninfeo",
+      "order": 8.599486645057333,
+      "shadow": {
+        "castShadow": true
+      },
+      "prefab": true
+    },
+    "538e3a18-0f51-4a2f-a8a3-ac040f09ce05": {
+      "id": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "parentId": "1d030da3-9e4b-4e85-a1fd-11b326d96840",
+      "components": {
+        "a2c75775-5a0f-44d7-910c-c111bc850bf6": {
+          "id": "a2c75775-5a0f-44d7-910c-c111bc850bf6",
+          "name": "position-animation",
+          "parameters": {
+            "fromY": -6,
+            "loop": false,
+            "easeOut": true,
+            "easingFunction": "Quadratic",
+            "duration": 5000,
+            "toY": 0,
+            "easeIn": false
+          }
+        }
+      },
+      "name": "Ninfeo",
+      "order": 1.1209803013844988,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ninfeo_sessa_senza_statua.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "shadow": {
+        "castShadow": true
+      }
+    },
+    "a892e0ce-9e87-4ac7-b17d-2b8458e29b8e": {
+      "id": "a892e0ce-9e87-4ac7-b17d-2b8458e29b8e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.9427642097783211,
+        -0.051757685589955395,
+        -0.27925948150359964,
+        0.17473101823594428
+      ],
+      "scale": [
+        1.000000000000003,
+        1.0000000000000384,
+        1.0000000000000355
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "6f22fcfe-3cdd-4c39-b437-954d41101b7a",
+      "components": {},
+      "light": {
+        "type": "directional",
+        "intensity": 0.8,
+        "color": "#ffffff"
+      },
+      "name": "Directional Light",
+      "order": 22.406910249172945
+    },
+    "6be67174-661d-4679-b4f5-e78cf07304ce": {
+      "id": "6be67174-661d-4679-b4f5-e78cf07304ce",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.8950467519564849,
+        0.00854046185013643,
+        0.24207096991577884,
+        0.37445963447021513
+      ],
+      "scale": [
+        1.0000000000000038,
+        1.0000000000000482,
+        1.0000000000000446
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "light": {
+        "type": "directional",
+        "intensity": 0.9,
+        "color": "#ffffff"
+      },
+      "name": "Directional Light (1)",
+      "order": 23.73043748901307,
+      "parentId": "6f22fcfe-3cdd-4c39-b437-954d41101b7a"
+    },
+    "6f22fcfe-3cdd-4c39-b437-954d41101b7a": {
+      "id": "6f22fcfe-3cdd-4c39-b437-954d41101b7a",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "components": {},
+      "name": "Lights",
+      "order": 1.8168651715230077
+    },
+    "17b69535-b3f4-464a-96b7-8fd67a9dd0ad": {
+      "id": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
+      "position": [
+        -17.7756282998794,
+        4.643637871249666,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "f540ab31-1903-4196-926f-47f846d0fe51": {
+          "id": "f540ab31-1903-4196-926f-47f846d0fe51",
+          "name": "overlay-info-panel",
+          "parameters": {
+            "infoTextEntity": {
+              "type": "entity",
+              "id": "69df1d31-f60d-489c-bafb-64dac0cf4564"
+            },
+            "navButtonEntity": {
+              "type": "entity",
+              "id": "7d0b1616-bcd3-4069-95a0-98d178afb325"
+            },
+            "closeOnOutsideTap": true
+          }
+        }
+      },
+      "ui": {
+        "borderColor": "#636e87",
+        "borderWidth": 5,
+        "flexDirection": "column",
+        "width": "100%",
+        "height": 253,
+        "type": "overlay",
+        "background": "#ffffff",
+        "backgroundOpacity": 0.7800000000000002,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": 24,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "opacity": 1,
+        "stackingOrder": 0,
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": 84,
+        "right": "",
+        "ignoreRaycast": false,
+        "borderRadius": 18
+      },
+      "name": "InfoPanel",
+      "order": 12.064583681443603,
+      "hidden": false,
+      "parentId": "904308fe-98f5-4c93-bf62-f39d50c6e602"
+    },
+    "7d0b1616-bcd3-4069-95a0-98d178afb325": {
+      "id": "7d0b1616-bcd3-4069-95a0-98d178afb325",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
+      "components": {},
+      "ui": {
+        "borderColor": "#636e87",
+        "borderWidth": 5,
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ffffff",
+        "borderRadius": 16,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "NavButton",
+      "order": 1
+    },
+    "975988cb-3b02-4e26-99b7-2ccf5bf05984": {
+      "id": "975988cb-3b02-4e26-99b7-2ccf5bf05984",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "7d0b1616-bcd3-4069-95a0-98d178afb325",
+      "components": {},
+      "name": "NavButtonText",
+      "ui": {
+        "width": 73,
+        "height": 14,
+        "text": "View 3D",
+        "color": "#636e87",
+        "fontSize": 16,
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "order": 2
+    },
+    "69df1d31-f60d-489c-bafb-64dac0cf4564": {
+      "id": "69df1d31-f60d-489c-bafb-64dac0cf4564",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
+      "components": {},
+      "ui": {
+        "text": "",
+        "flexDirection": "row",
+        "width": 308,
+        "height": 92,
+        "type": "3d",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "gap": 169,
+        "paddingTop": 6,
+        "paddingBottom": 6,
+        "paddingLeft": 33,
+        "paddingRight": 33,
+        "margin": "",
+        "marginTop": 0,
+        "marginBottom": 0,
+        "marginLeft": 0,
+        "marginRight": 0,
+        "fontSize": 28,
+        "ignoreRaycast": false,
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        },
+        "verticalTextAlign": "center",
+        "color": "#636e87"
+      },
+      "name": "InfoText",
+      "order": -0.8728902973045858
+    },
+    "18566616-4275-4629-8c0a-4c8ebc04b31f": {
+      "id": "18566616-4275-4629-8c0a-4c8ebc04b31f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "904308fe-98f5-4c93-bf62-f39d50c6e602",
+      "components": {},
+      "name": "Tap Prompt Group",
+      "order": 11.77765849143189
+    },
+    "0cb5785b-0eaa-42ff-b7da-8ab2cfb3ce9d": {
+      "id": "0cb5785b-0eaa-42ff-b7da-8ab2cfb3ce9d",
+      "position": [
+        -0.26077567297684423,
+        2.168889793576198,
+        -2.58221448919669
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05",
+      "components": {
+        "e2ac7c74-8c05-4948-b611-3fa40e5e4012": {
+          "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
+          "name": "info-3d-tag",
+          "parameters": {
+            "infoText": "Questa monumentale tomba a camera, costruita in blocchi di travertino, databile alla seconda metà del III secolo a.C., è stata portata alla luce nel 2017 durante uno scavo archeologico eseguito per motivi di tutela nella parte settentrionale della città di Pontecagnano, in via Raffaello Sanzio.",
+            "url": "https://skfb.ly/pLvrG"
+          }
+        }
+      },
+      "ui": {
+        "borderColor": "#636e87",
+        "borderWidth": 4,
+        "type": "3d",
+        "width": 53,
+        "height": 53,
+        "background": "#ffffff",
+        "borderRadius": 10,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button1",
+      "order": 1.1794941549229436
+    },
+    "d701cd5b-1ae8-46c4-99e8-785c633cac7d": {
+      "id": "d701cd5b-1ae8-46c4-99e8-785c633cac7d",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "0cb5785b-0eaa-42ff-b7da-8ab2cfb3ce9d",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 36,
+        "height": 33,
+        "text": "1",
+        "color": "#636e87",
+        "fontSize": 44,
+        "textAlign": "center",
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "order": 1.2355961748945437
+    },
+    "53db8dfe-59dd-43cc-9ca3-dbb46066e6d6": {
+      "id": "53db8dfe-59dd-43cc-9ca3-dbb46066e6d6",
+      "position": [
+        -3.3174172038631835,
+        2.5307259510287,
+        -2.58221448919669
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "e2ac7c74-8c05-4948-b611-3fa40e5e4012": {
+          "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
+          "name": "info-3d-tag",
+          "parameters": {
+            "infoText": "Statua di figura maschile",
+            "url": "https://skfb.ly/pL9Xo"
+          }
+        }
+      },
+      "ui": {
+        "borderColor": "#636e87",
+        "borderWidth": 4,
+        "type": "3d",
+        "width": 53,
+        "height": 53,
+        "background": "#ffffff",
+        "borderRadius": 10,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "ButtonPanneggioSX",
+      "order": 2.2593983721016024,
+      "parentId": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05"
+    },
+    "fe09fec9-177b-4305-b82d-03d6805f162e": {
+      "id": "fe09fec9-177b-4305-b82d-03d6805f162e",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "53db8dfe-59dd-43cc-9ca3-dbb46066e6d6",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 36,
+        "height": 33,
+        "text": "i",
+        "color": "#636e87",
+        "fontSize": 44,
+        "textAlign": "center",
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "order": 1
+    },
+    "bd051e55-6964-45e6-bf25-4b9c0b6f1e07": {
+      "id": "bd051e55-6964-45e6-bf25-4b9c0b6f1e07",
+      "position": [
+        2.8334700909997452,
+        2.4533798065290684,
+        -2.58221448919669
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "e2ac7c74-8c05-4948-b611-3fa40e5e4012": {
+          "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
+          "name": "info-3d-tag",
+          "parameters": {
+            "infoText": "Frammento di statua",
+            "url": ""
+          }
+        }
+      },
+      "ui": {
+        "borderColor": "#636e87",
+        "borderWidth": 4,
+        "type": "3d",
+        "width": 53,
+        "height": 53,
+        "background": "#ffffff",
+        "borderRadius": 10,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "ButtonPanneggioDX",
+      "order": 1.9082325121766062,
+      "parentId": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05"
+    },
+    "ea943c04-7217-417a-b615-aa3d7ec7410f": {
+      "id": "ea943c04-7217-417a-b615-aa3d7ec7410f",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "bd051e55-6964-45e6-bf25-4b9c0b6f1e07",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 36,
+        "height": 33,
+        "text": "i",
+        "color": "#636e87",
+        "fontSize": 44,
+        "textAlign": "center",
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "order": 1
+    },
+    "4108a286-94e3-49af-a906-46803a1bbff2": {
+      "id": "4108a286-94e3-49af-a906-46803a1bbff2",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "17b69535-b3f4-464a-96b7-8fd67a9dd0ad",
+      "components": {},
+      "ui": {
+        "background": "#999999",
+        "backgroundOpacity": 0.5,
+        "width": 32,
+        "height": 20,
+        "text": "X",
+        "color": "#000000",
+        "fontSize": 17,
+        "type": "3d",
+        "borderRadius": 10,
+        "verticalTextAlign": "center",
+        "position": "absolute",
+        "top": 7,
+        "left": "",
+        "bottom": "",
+        "right": 7
+      },
+      "name": "CloseButton",
+      "order": -3.714825771618165
+    }
+  },
+  "spaces": {
+    "84028e73-ee70-412d-b8d4-c09bf07c655c": {
+      "id": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+      "name": "Default",
+      "activeCamera": "52ba8a86-a459-4df8-b954-a570e85e0484"
+    }
+  },
+  "entrySpaceId": "84028e73-ee70-412d-b8d4-c09bf07c655c",
+  "runtimeVersion": {
+    "type": "version",
+    "level": "major",
+    "major": 2,
+    "minor": 0,
+    "patch": 0
+  }
+}
