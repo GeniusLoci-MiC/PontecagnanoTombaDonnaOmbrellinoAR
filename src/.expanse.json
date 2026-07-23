@@ -790,7 +790,7 @@
         "justifyContent": "center"
       },
       "name": "Button1",
-      "order": 1.1794941549229436
+      "order": -3.6789213460289902
     },
     "d701cd5b-1ae8-46c4-99e8-785c633cac7d": {
       "id": "d701cd5b-1ae8-46c4-99e8-785c633cac7d",
@@ -855,8 +855,8 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "Statua di figura maschile",
-            "url": "https://skfb.ly/pL9Xo"
+            "infoText": "La sepoltura, originariamente ipogea, presentava un'ampia camera a pianta quadrangolare con tre letti funebri disposti lungo le pareti, la cui copertura non si e' conservata. L'ingresso era chiuso da tre grandi blocchi di travertino ed era preceduto da un dromos, un corridoio di accesso costituito da una rampa.",
+            "url": ""
           }
         }
       },
@@ -875,8 +875,8 @@
         "alignItems": "center",
         "justifyContent": "center"
       },
-      "name": "ButtonPanneggioSX",
-      "order": 2.2593983721016024,
+      "name": "Button2",
+      "order": -1.7796291437222111,
       "parentId": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05"
     },
     "fe09fec9-177b-4305-b82d-03d6805f162e": {
@@ -905,7 +905,7 @@
       "ui": {
         "width": 36,
         "height": 33,
-        "text": "i",
+        "text": "2",
         "color": "#636e87",
         "fontSize": 44,
         "textAlign": "center",
@@ -962,8 +962,8 @@
         "alignItems": "center",
         "justifyContent": "center"
       },
-      "name": "Button5",
-      "order": 1.9082325121766062,
+      "name": "Button4",
+      "order": 0.6925245675084456,
       "parentId": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05"
     },
     "ea943c04-7217-417a-b615-aa3d7ec7410f": {
@@ -992,7 +992,7 @@
       "ui": {
         "width": 36,
         "height": 33,
-        "text": "5",
+        "text": "4",
         "color": "#636e87",
         "fontSize": 44,
         "textAlign": "center",
@@ -1045,6 +1045,180 @@
       },
       "name": "CloseButton",
       "order": -3.714825771618165
+    },
+    "f0199e8d-d149-4cab-8ebc-27c5181ef48b": {
+      "id": "f0199e8d-d149-4cab-8ebc-27c5181ef48b",
+      "position": [
+        -2.4250002651873115,
+        3.697960322645138,
+        -1.7270422300110413
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "e2ac7c74-8c05-4948-b611-3fa40e5e4012": {
+          "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
+          "name": "info-3d-tag",
+          "parameters": {
+            "infoText": "Le pareti laterali sono decorate da bende e velari in rosso e in nero, sopra ai quali corre un motivo a onde in rosso. Gli elementi superstiti di una cornice aggettante sono decorati da ovuli alternati in bianco e in nero.",
+            "url": ""
+          }
+        }
+      },
+      "ui": {
+        "borderColor": "#636e87",
+        "borderWidth": 4,
+        "type": "3d",
+        "width": 53,
+        "height": 53,
+        "background": "#ffffff",
+        "borderRadius": 10,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button3",
+      "order": 0.33135282951409606,
+      "parentId": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05"
+    },
+    "bc461ecd-46b9-4de2-9e8a-f5a23f685e29": {
+      "id": "bc461ecd-46b9-4de2-9e8a-f5a23f685e29",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "f0199e8d-d149-4cab-8ebc-27c5181ef48b",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 36,
+        "height": 33,
+        "text": "3",
+        "color": "#636e87",
+        "fontSize": 44,
+        "textAlign": "center",
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "order": 1
+    },
+    "32cb12f7-a050-4060-8346-815bfec7458a": {
+      "id": "32cb12f7-a050-4060-8346-815bfec7458a",
+      "position": [
+        -1.231217186438919,
+        3.697960322645138,
+        -1.7270422300110413
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "e2ac7c74-8c05-4948-b611-3fa40e5e4012": {
+          "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
+          "name": "info-3d-tag",
+          "parameters": {
+            "infoText": "Particolarmente ricco era il corredo della donna deposta sul letto a destra dell'ingresso. Oltre a numerosi vasi, soprattutto unguentari acromi e decorati a fasce, sono stati recuperati molti listelli ed elementi in osso pertinenti a una cassetta lignea, al cui interno erano racchiusi uno specchio in bronzo, una piccola pisside con coperchio a vernice nera, contenente polvere da trucco di colore rosa, un pettine e un fuso in osso.",
+            "url": ""
+          }
+        }
+      },
+      "ui": {
+        "borderColor": "#636e87",
+        "borderWidth": 4,
+        "type": "3d",
+        "width": 53,
+        "height": 53,
+        "background": "#ffffff",
+        "borderRadius": 10,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center"
+      },
+      "name": "Button5",
+      "order": 1.0021512523197962,
+      "parentId": "538e3a18-0f51-4a2f-a8a3-ac040f09ce05"
+    },
+    "476f71d5-5a16-4be0-ab69-efdd386e8570": {
+      "id": "476f71d5-5a16-4be0-ab69-efdd386e8570",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "32cb12f7-a050-4060-8346-815bfec7458a",
+      "components": {},
+      "name": "Text",
+      "ui": {
+        "width": 36,
+        "height": 33,
+        "text": "5",
+        "color": "#636e87",
+        "fontSize": 44,
+        "textAlign": "center",
+        "verticalTextAlign": "center",
+        "font": {
+          "type": "font",
+          "font": "Futura"
+        }
+      },
+      "order": 1
     }
   },
   "spaces": {
