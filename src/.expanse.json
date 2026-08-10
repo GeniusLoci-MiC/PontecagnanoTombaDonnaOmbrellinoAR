@@ -382,7 +382,7 @@
           "parameters": {}
         }
       },
-      "name": "Ninfeo",
+      "name": "DamaOmbrellino",
       "order": 8.599486645057333,
       "shadow": {
         "castShadow": true
@@ -413,22 +413,22 @@
           "id": "a2c75775-5a0f-44d7-910c-c111bc850bf6",
           "name": "position-animation",
           "parameters": {
-            "fromY": -6,
+            "fromY": -2,
             "loop": false,
             "easeOut": true,
             "easingFunction": "Quadratic",
             "duration": 5000,
-            "toY": 0,
+            "toY": 0.02,
             "easeIn": false
           }
         }
       },
-      "name": "Ninfeo",
+      "name": "Modello3D",
       "order": 1.1209803013844988,
       "gltfModel": {
         "src": {
           "type": "asset",
-          "asset": "assets/ninfeo_sessa_senza_statua.glb"
+          "asset": "assets/Tomba_dama_ombrellino.glb"
         },
         "animationClip": "",
         "loop": true
@@ -746,9 +746,9 @@
     "0cb5785b-0eaa-42ff-b7da-8ab2cfb3ce9d": {
       "id": "0cb5785b-0eaa-42ff-b7da-8ab2cfb3ce9d",
       "position": [
-        -0.26077567297684423,
-        2.168889793576198,
-        -2.58221448919669
+        0.18513047905120805,
+        2.437117397510951,
+        -1.259174954600963
       ],
       "rotation": [
         0,
@@ -833,9 +833,9 @@
     "53db8dfe-59dd-43cc-9ca3-dbb46066e6d6": {
       "id": "53db8dfe-59dd-43cc-9ca3-dbb46066e6d6",
       "position": [
-        -3.3174172038631835,
-        2.5307259510287,
-        -2.58221448919669
+        1.2536788138799264,
+        2.1854768293450344,
+        -1.3144809203035466
       ],
       "rotation": [
         0,
@@ -920,9 +920,9 @@
     "bd051e55-6964-45e6-bf25-4b9c0b6f1e07": {
       "id": "bd051e55-6964-45e6-bf25-4b9c0b6f1e07",
       "position": [
-        2.8334700909997452,
-        2.4533798065290684,
-        -2.58221448919669
+        -0.3938180597526868,
+        1.39979724527864,
+        -0.9541358480603748
       ],
       "rotation": [
         0,
@@ -949,14 +949,14 @@
       },
       "ui": {
         "borderColor": "#636e87",
-        "borderWidth": 4,
+        "borderWidth": 1,
         "type": "3d",
         "width": 53,
         "height": 53,
         "background": "#ffffff",
         "borderRadius": 10,
         "flexDirection": "row",
-        "backgroundOpacity": 1,
+        "backgroundOpacity": 0.3000000000000001,
         "padding": "10",
         "gap": "6",
         "alignItems": "center",
@@ -1000,7 +1000,8 @@
         "font": {
           "type": "font",
           "font": "Futura"
-        }
+        },
+        "opacity": 0.4399999999999995
       },
       "order": 1
     },
@@ -1049,15 +1050,15 @@
     "f0199e8d-d149-4cab-8ebc-27c5181ef48b": {
       "id": "f0199e8d-d149-4cab-8ebc-27c5181ef48b",
       "position": [
-        -2.4250002651873115,
-        3.697960322645138,
-        -1.7270422300110413
+        -1.1225403236517755,
+        2.4367839367956923,
+        0.16575473227699833
       ],
       "rotation": [
         0,
+        0.7071067811865475,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         1,
@@ -1136,15 +1137,15 @@
     "32cb12f7-a050-4060-8346-815bfec7458a": {
       "id": "32cb12f7-a050-4060-8346-815bfec7458a",
       "position": [
-        -1.231217186438919,
-        3.697960322645138,
-        -1.7270422300110413
+        1.5416601561485896,
+        2.0123164365820743,
+        0.18687243860127856
       ],
       "rotation": [
         0,
+        -0.7071067811865475,
         0,
-        0,
-        1
+        0.7071067811865476
       ],
       "scale": [
         1,
