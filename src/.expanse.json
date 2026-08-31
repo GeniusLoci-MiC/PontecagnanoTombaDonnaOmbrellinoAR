@@ -428,7 +428,7 @@
       "gltfModel": {
         "src": {
           "type": "asset",
-          "asset": "assets/Tomba_dama_ombrellino.glb"
+          "asset": "assets/Tomba_dama_ombrellino_v04.glb"
         },
         "animationClip": "",
         "loop": true
@@ -855,7 +855,7 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "La sepoltura, originariamente ipogea, presentava un'ampia camera a pianta quadrangolare con tre letti funebri disposti lungo le pareti, la cui copertura non si e' conservata. L'ingresso era chiuso da tre grandi blocchi di travertino ed era preceduto da un dromos, un corridoio di accesso costituito da una rampa.",
+            "infoText": "La sepoltura, originariamente ipogea, presentava un'ampia camera a pianta quadrangolare con tre letti funebri disposti lungo le pareti, la cui copertura non si e' conservata. \nL'ingresso era chiuso da tre grandi blocchi di travertino ed era preceduto da un dromos, un corridoio di accesso costituito da una rampa.",
             "url": ""
           }
         }
@@ -942,7 +942,7 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "La parete posta di fronte all'ingresso presenta una scena figurata: al centro due personaggi affrontati, uno maschile a sinistra e l'altro femminile a destra, entrambi con volto di prospetto e braccio destro proteso. Dietro alla donna un'altra figura femminile di dimensioni minori, probabilmente un'ancella, incede verso sinistra reggendo un ombrellino parasole. Dietro alla figura maschile, invece, e' rappresentato un altro uomo di dimensioni minori. Il piano su cui poggiano le figure e' reso con una fascia ondulata nera, il che lascia ipotizzare l'ambientazione nell'Ade della scena che rappresenterebbe l'accoglimento della defunta nell'Aldila' da parte di un membro della famiglia.",
+            "infoText": "La parete posta di fronte all'ingresso presenta una scena figurata: al centro due personaggi affrontati, uno maschile a sinistra e l'altro femminile a destra, entrambi con volto di prospetto e braccio destro proteso. \nDietro alla donna un'altra figura femminile di dimensioni minori, probabilmente un'ancella, incede verso sinistra reggendo un ombrellino parasole. Dietro alla figura maschile, invece, e' rappresentato un altro uomo di dimensioni minori. Il piano su cui poggiano le figure e' reso con una fascia ondulata nera, il che lascia ipotizzare l'ambientazione nell'Ade della scena che rappresenterebbe l'accoglimento della defunta nell'Aldila' da parte di un membro della famiglia.",
             "url": ""
           }
         }
@@ -1072,7 +1072,7 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "Le pareti laterali sono decorate da bende e velari in rosso e in nero, sopra ai quali corre un motivo a onde in rosso. Gli elementi superstiti di una cornice aggettante sono decorati da ovuli alternati in bianco e in nero.",
+            "infoText": "Le pareti laterali sono decorate da bende e velari in rosso e in nero, sopra ai quali corre un motivo a onde in rosso. \nGli elementi superstiti di una cornice aggettante sono decorati da ovuli alternati in bianco e in nero.",
             "url": ""
           }
         }
@@ -1159,7 +1159,7 @@
           "id": "e2ac7c74-8c05-4948-b611-3fa40e5e4012",
           "name": "info-3d-tag",
           "parameters": {
-            "infoText": "Particolarmente ricco era il corredo della donna deposta sul letto a destra dell'ingresso. Oltre a numerosi vasi, soprattutto unguentari acromi e decorati a fasce, sono stati recuperati molti listelli ed elementi in osso pertinenti a una cassetta lignea, al cui interno erano racchiusi uno specchio in bronzo, una piccola pisside con coperchio a vernice nera, contenente polvere da trucco di colore rosa, un pettine e un fuso in osso.",
+            "infoText": "Particolarmente ricco era il corredo della donna deposta sul letto a destra dell'ingresso.\nOltre a numerosi vasi, soprattutto unguentari acromi e decorati a fasce, sono stati recuperati molti listelli ed elementi in osso pertinenti a una cassetta lignea, al cui interno erano racchiusi uno specchio in bronzo, una piccola pisside con coperchio a vernice nera, contenente polvere da trucco di colore rosa, un pettine e un fuso in osso.",
             "url": ""
           }
         }

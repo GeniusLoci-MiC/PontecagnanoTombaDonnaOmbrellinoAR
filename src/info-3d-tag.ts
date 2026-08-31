@@ -5,6 +5,7 @@ const TAG_TAPPED_EVENT = 'overlay-info-panel:tag-tapped'
 ecs.registerComponent({
   name: 'info-3d-tag',
   schema: {
+    // @multiline
     infoText: 'string',
     url: 'string',
   },
